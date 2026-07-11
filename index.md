@@ -5,6 +5,8 @@ description: Automatic translation for modded RimWorld
 
 # Auto Translation Framework
 
+**English** | [Русский](ru/)
+
 ![Auto Translation Framework preview](assets/preview.png)
 
 [![RimWorld 1.6](https://img.shields.io/badge/RimWorld-1.6-8c5a3c)](https://rimworldgame.com/)

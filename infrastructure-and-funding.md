@@ -5,6 +5,8 @@ description: Shared translation library hosting and project funding references
 
 # Infrastructure and funding
 
+**English** | [Русский](ru/infrastructure-and-funding.html)
+
 ## Shared translation library
 
 Auto Translation Framework includes an optional shared translation library. The service stores and distributes reusable translation data so that players do not need to translate the same mod and language combination repeatedly.

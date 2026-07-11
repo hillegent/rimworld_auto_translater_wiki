@@ -22,6 +22,6 @@ These links are listed as project funding information. Payment is not required t
 
 ## Project availability
 
-The mod remains freely distributed through the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650). Its source and technical documentation remain available in the [main GitHub repository](https://github.com/hillegent/rimworld_auto_translater).
+The mod remains freely distributed through the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650). Public usage documentation remains available on this site.
 
 [Return to the project overview](index.html)

@@ -196,7 +196,7 @@ Generated XML belongs to the framework's cache. Make durable corrections in the 
 
 ### More diagnostic information is needed
 
-Open **Debug**, inspect the pipeline snapshot, and use **Open pipeline diagnostics log**. Include the relevant status and a short reproduction description in a [GitHub issue](https://github.com/hillegent/rimworld_auto_translater/issues). Do not include API keys or private tokens.
+Open **Debug**, inspect the pipeline snapshot, and use **Open pipeline diagnostics log**. Include the relevant status and a short reproduction description when reporting the problem on the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650). Do not include API keys or private tokens.
 
 ## Current limitations
 

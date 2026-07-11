@@ -5,15 +5,15 @@ description: Automatic translation for modded RimWorld
 
 # Auto Translation Framework
 
-![Auto Translation Framework preview](https://raw.githubusercontent.com/hillegent/rimworld_auto_translater/main/About/Preview.png)
+![Auto Translation Framework preview](assets/preview.png)
 
 [![RimWorld 1.6](https://img.shields.io/badge/RimWorld-1.6-8c5a3c)](https://rimworldgame.com/)
-[![Version 1.0.11](https://img.shields.io/badge/version-1.0.11-2f81f7)](https://github.com/hillegent/rimworld_auto_translater/blob/main/About/About.xml)
+![Version 1.0.11](https://img.shields.io/badge/version-1.0.11-2f81f7)
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)
 
 Auto Translation Framework is a RimWorld mod that translates other active mods without editing their Workshop files. It scans missing localization, reuses local and shared translations, sends remaining text to configured translation providers, and applies completed translations during play where RimWorld allows it safely.
 
-**[Install from Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[Open the user guide](user-guide.html)** | **[Report an issue](https://github.com/hillegent/rimworld_auto_translater/issues)**
+**[Install from Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[Open the user guide](user-guide.html)**
 
 ## What it translates
 
@@ -80,11 +80,9 @@ The project is experimental and actively evolving. It cannot guarantee complete 
 
 ## Project links
 
-- [Source code](https://github.com/hillegent/rimworld_auto_translater)
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)
 - [User guide](user-guide.html)
 - [Infrastructure and funding](infrastructure-and-funding.html)
-- [Issue tracker](https://github.com/hillegent/rimworld_auto_translater/issues)
 
 ## Legal notice
 

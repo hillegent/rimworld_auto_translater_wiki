@@ -8,6 +8,7 @@ This repository contains the public documentation site for Auto Translation Fram
 - [User guide](user-guide.md)
 - [Infrastructure and funding](infrastructure-and-funding.md)
 - [Русская версия](ru/index.md)
+- [简体中文版](zh-cn/index.md)
 
 Published site: **https://hillegent.github.io/rimworld_auto_translater_wiki/**
 

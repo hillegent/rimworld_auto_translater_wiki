@@ -5,7 +5,7 @@ description: Auto Translation Framework setup, features, and troubleshooting
 
 # Auto Translation Framework user guide
 
-**English** | [Русский](ru/user-guide.html)
+**English** | [Русский](ru/user-guide.html) | [简体中文](zh-cn/user-guide.html)
 
 This guide describes the player-facing workflow for Auto Translation Framework 1.0.11 on RimWorld 1.6.
 

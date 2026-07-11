@@ -5,7 +5,7 @@ description: Shared translation library hosting and project funding references
 
 # Infrastructure and funding
 
-**English** | [Русский](ru/infrastructure-and-funding.html)
+**English** | [Русский](ru/infrastructure-and-funding.html) | [简体中文](zh-cn/infrastructure-and-funding.html)
 
 ## Shared translation library
 
@@ -19,6 +19,8 @@ Library access is optional in the mod. Downloads and uploads are configured sepa
 
 - [Patreon](https://patreon.com/Artas48)
 - [Boosty](https://boosty.to/artas48)
+- [Ko-fi](https://ko-fi.com/artas_48)
+- [Afdian](https://ifdian.net/a/artas48)
 
 These links are listed as project funding information. Payment is not required to download or use the mod or to access its public library features. No features, access levels, queue priority, translation results, or specific development work are sold through these links.
 

@@ -5,7 +5,7 @@ description: Shared translation library hosting and project funding references
 
 # Infrastructure and funding
 
-**English** | [Русский](ru/infrastructure-and-funding.html) | [简体中文](zh-cn/infrastructure-and-funding.html)
+**English** | [Русский](ru/infrastructure-and-funding.html) | [简体中文](zh-cn/infrastructure-and-funding.html) | [Português (Brasil)](pt-br/infrastructure-and-funding.html)
 
 ## Shared translation library
 

@@ -5,7 +5,7 @@ description: Настройка, функции и решение проблем
 
 # Руководство пользователя Auto Translation Framework
 
-[English](../user-guide.html) | **Русский** | [简体中文](../zh-cn/user-guide.html)
+[English](../user-guide.html) | **Русский** | [简体中文](../zh-cn/user-guide.html) | [Português (Brasil)](../pt-br/user-guide.html)
 
 Это руководство описывает пользовательский процесс Auto Translation Framework 1.0.11 для RimWorld 1.6.
 

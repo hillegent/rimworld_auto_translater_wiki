@@ -5,7 +5,7 @@ description: Автоматический перевод модов RimWorld
 
 # Auto Translation Framework
 
-[English](../index.html) | **Русский** | [简体中文](../zh-cn/index.html)
+[English](../index.html) | **Русский** | [简体中文](../zh-cn/index.html) | [Português (Brasil)](../pt-br/index.html)
 
 ![Обложка Auto Translation Framework](../assets/preview.png)
 

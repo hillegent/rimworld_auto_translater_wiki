@@ -5,7 +5,7 @@ description: 共享翻译库托管和项目资金信息
 
 # 基础设施与资金
 
-[English](../infrastructure-and-funding.html) | [Русский](../ru/infrastructure-and-funding.html) | **简体中文**
+[English](../infrastructure-and-funding.html) | [Русский](../ru/infrastructure-and-funding.html) | **简体中文** | [Português (Brasil)](../pt-br/infrastructure-and-funding.html)
 
 ## 共享翻译库
 

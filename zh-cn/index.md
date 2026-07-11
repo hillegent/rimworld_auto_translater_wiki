@@ -5,7 +5,7 @@ description: 为 RimWorld 模组提供自动翻译
 
 # Auto Translation Framework
 
-[English](../index.html) | [Русский](../ru/index.html) | **简体中文**
+[English](../index.html) | [Русский](../ru/index.html) | **简体中文** | [Português (Brasil)](../pt-br/index.html)
 
 ![Auto Translation Framework 预览](../assets/preview.png)
 

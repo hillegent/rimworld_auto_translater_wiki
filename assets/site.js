@@ -57,6 +57,8 @@
   let activeLanguage = "en";
 
   function detectLanguage() {
+    const requested = new URLSearchParams(window.location.search).get("lang");
+    if (requested && translations[requested.toLowerCase()]) return requested.toLowerCase();
     const stored = localStorage.getItem("atf-page-language");
     if (translations[stored]) return stored;
     const language = (navigator.language || "en").toLowerCase();
@@ -64,6 +66,12 @@
     if (language.startsWith("zh")) return "zh";
     if (language.startsWith("pt")) return "pt";
     return "en";
+  }
+
+  function writeLanguageToUrl(language) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", language);
+    window.history.replaceState(null, "", url.toString());
   }
 
   function applyLanguage(language) {
@@ -115,6 +123,7 @@
   document.querySelectorAll("[data-language]").forEach((button) => {
     button.addEventListener("click", () => {
       applyLanguage(button.dataset.language);
+      writeLanguageToUrl(button.dataset.language);
       loadRelease();
     });
   });

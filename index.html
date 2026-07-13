@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f12">
+  <meta name="description" content="Download the current non-Steam build of Auto Translation Framework for RimWorld 1.6.">
+  <meta property="og:title" content="Auto Translation Framework">
+  <meta property="og:description" content="Automatic translation for modded RimWorld. Download the current build or install through Steam Workshop.">
+  <meta property="og:image" content="https://hillegent.github.io/rimworld_auto_translater_wiki/assets/preview.png">
+  <meta property="og:type" content="website">
+  <title>Auto Translation Framework</title>
+  <link rel="icon" href="assets/preview.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Auto Translation Framework home">
+        <span class="brand-mark" aria-hidden="true">ATF</span>
+        <span class="brand-name">Auto Translation Framework</span>
+      </a>
+      <div class="nav-actions">
+        <a class="nav-link" data-guide-link href="user-guide.html">
+          <i data-lucide="book-open" aria-hidden="true"></i>
+          <span data-i18n="guide">User guide</span>
+        </a>
+        <a class="nav-link" href="#support">
+          <i data-lucide="heart-handshake" aria-hidden="true"></i>
+          <span data-i18n="support">Support</span>
+        </a>
+        <div class="language-switch" role="group" aria-label="Page language">
+          <button type="button" data-language="en" aria-pressed="true">EN</button>
+          <button type="button" data-language="ru" aria-pressed="false">RU</button>
+          <button type="button" data-language="zh" aria-pressed="false">ZH</button>
+          <button type="button" data-language="pt" aria-pressed="false">PT</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow" data-i18n="eyebrow">RimWorld 1.6 mod</p>
+      <h1>Auto Translation Framework</h1>
+      <p class="hero-copy" data-i18n="heroCopy">Automatic translation for active RimWorld mods, with local memory, free web providers, and ready packs from the shared library.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" data-download-link href="https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip">
+          <i data-lucide="download" aria-hidden="true"></i>
+          <span data-i18n="download">Download current ZIP</span>
+        </a>
+        <a class="button button-secondary" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650">
+          <i data-lucide="gamepad-2" aria-hidden="true"></i>
+          <span data-i18n="steam">Open in Steam Workshop</span>
+        </a>
+      </div>
+      <div class="release-meta" aria-live="polite">
+        <span><i data-lucide="tag" aria-hidden="true"></i><strong data-release-version>1.0.17</strong></span>
+        <span data-release-size data-i18n="loadingRelease">Checking current release...</span>
+        <span data-release-date></span>
+      </div>
+      <p class="retention-note" data-i18n="retention">The GitHub channel keeps one build only: the current release.</p>
+    </div>
+    <a class="scroll-cue" href="#support" aria-label="Continue to download details">
+      <i data-lucide="chevron-down" aria-hidden="true"></i>
+    </a>
+  </header>
+
+  <main>
+    <section class="support-strip" id="support" aria-labelledby="support-title">
+      <div class="section-inner support-inner">
+        <div class="support-copy">
+          <p class="section-kicker" data-i18n="supportKicker">Project support</p>
+          <h2 id="support-title" data-i18n="supportTitle">Hosting and development</h2>
+          <p data-i18n="supportCopy">The mod and public library remain free. These optional links help cover infrastructure and ongoing development.</p>
+        </div>
+        <div class="support-links">
+          <a href="https://boosty.to/artas48" class="support-link support-boosty"><span>Boosty</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a href="https://patreon.com/Artas48" class="support-link support-patreon"><span>Patreon</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a href="https://ko-fi.com/artas_48" class="support-link support-kofi"><span>Ko-fi</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a href="https://ifdian.net/a/artas48" class="support-link support-afdian"><span>Afdian</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band" id="install" aria-labelledby="install-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="manualKicker">Non-Steam installation</p>
+          <h2 id="install-title" data-i18n="installTitle">Three steps, no installer</h2>
+          <p data-i18n="installCopy">The archive already contains the correct mod folder. Existing local settings and generated translations are outside this folder and are not overwritten.</p>
+        </div>
+        <ol class="install-steps">
+          <li>
+            <span class="step-number">01</span>
+            <div><h3 data-i18n="step1Title">Download</h3><p data-i18n="step1Copy">Get the current ZIP from the button above.</p></div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div><h3 data-i18n="step2Title">Extract</h3><p><span data-i18n="step2Copy">Place the folder in</span> <code>RimWorld\Mods\RimWorldAutoTranslator</code></p></div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div><h3 data-i18n="step3Title">Enable</h3><p data-i18n="step3Copy">Install Harmony, load it first, then enable Auto Translation Framework.</p></div>
+          </li>
+        </ol>
+        <div class="install-actions">
+          <a class="button button-primary" data-download-link href="https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip">
+            <i data-lucide="download" aria-hidden="true"></i>
+            <span data-i18n="download">Download current ZIP</span>
+          </a>
+          <a class="text-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077">
+            <span data-i18n="harmony">Get Harmony</span>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band feature-band" aria-labelledby="features-title">
+      <div class="section-inner">
+        <div class="section-heading compact-heading">
+          <p class="section-kicker" data-i18n="includedKicker">Included</p>
+          <h2 id="features-title" data-i18n="featuresTitle">One framework for the full translation loop</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><i data-lucide="scan-text" aria-hidden="true"></i><h3 data-i18n="feature1Title">Automatic scan</h3><p data-i18n="feature1Copy">Finds missing Keyed, DefInjected, and supported runtime UI text across active mods.</p></article>
+          <article class="feature"><i data-lucide="library-big" aria-hidden="true"></i><h3 data-i18n="feature2Title">Shared packs</h3><p data-i18n="feature2Copy">Checks ready micro, compact, and individual mod packs before translating locally.</p></article>
+          <article class="feature"><i data-lucide="languages" aria-hidden="true"></i><h3 data-i18n="feature3Title">Flexible providers</h3><p data-i18n="feature3Copy">Works with free web translators by default and optional API or compatible AI providers.</p></article>
+          <article class="feature"><i data-lucide="shield-check" aria-hidden="true"></i><h3 data-i18n="feature4Title">Safe local cache</h3><p data-i18n="feature4Copy">Preserves placeholders, keeps translation memory, and never edits other Workshop mods.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-inner footer-inner">
+      <div><strong>Auto Translation Framework</strong><p data-i18n="footerCopy">Unofficial RimWorld mod. Not endorsed by Ludeon Studios.</p></div>
+      <div class="footer-links">
+        <a data-guide-link href="user-guide.html" data-i18n="guide">User guide</a>
+        <a href="infrastructure-and-funding.html" data-i18n="infrastructure">Infrastructure</a>
+        <a href="https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest" data-i18n="releasePage">Release page</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

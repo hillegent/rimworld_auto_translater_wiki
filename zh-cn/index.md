@@ -10,12 +10,12 @@ description: 为 RimWorld 模组提供自动翻译
 ![Auto Translation Framework 预览](../assets/preview.png)
 
 [![RimWorld 1.6](https://img.shields.io/badge/RimWorld-1.6-8c5a3c)](https://rimworldgame.com/)
-![版本 1.0.11](https://img.shields.io/badge/version-1.0.11-2f81f7)
+![版本 1.0.17](https://img.shields.io/badge/version-1.0.17-2f81f7)
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)
 
 Auto Translation Framework 是一款 RimWorld 模组，可以在不修改其他模组创意工坊文件的情况下翻译当前启用的模组。它会扫描缺失的本地化内容，优先复用本地和共享翻译，将剩余文本发送给已配置的翻译服务，并在 RimWorld 允许的范围内于游戏运行时安全应用翻译结果。
 
-**[从 Steam 创意工坊安装](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[打开用户指南](user-guide.html)**
+**[下载最新 ZIP](https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip)** | **[从 Steam 创意工坊安装](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[打开用户指南](user-guide.html)**
 
 ## 可以翻译的内容
 

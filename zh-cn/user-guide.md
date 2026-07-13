@@ -7,7 +7,7 @@ description: Auto Translation Framework 设置、功能与故障排除
 
 [English](../user-guide.html) | [Русский](../ru/user-guide.html) | **简体中文** | [Português (Brasil)](../pt-br/user-guide.html)
 
-本指南介绍 RimWorld 1.6 中 Auto Translation Framework 1.0.11 的玩家使用流程。
+本指南介绍 RimWorld 1.6 中 Auto Translation Framework 1.0.17 的玩家使用流程。
 
 ## 系统要求
 
@@ -18,7 +18,7 @@ description: Auto Translation Framework 设置、功能与故障排除
 
 ## 安装
 
-推荐通过 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)安装。
+推荐通过 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)安装。若不使用 Steam，可下载 [GitHub 最新 ZIP](https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip)，并将其中的 `RimWorldAutoTranslator` 文件夹解压到 `RimWorld\Mods`。
 
 1. 订阅 Harmony 和 Auto Translation Framework。
 2. 打开 RimWorld 的 **Mods（模组）** 菜单。

@@ -10,12 +10,12 @@ description: Tradução automática de mods para RimWorld
 ![Prévia do Auto Translation Framework](../assets/preview.png)
 
 [![RimWorld 1.6](https://img.shields.io/badge/RimWorld-1.6-8c5a3c)](https://rimworldgame.com/)
-![Versão 1.0.11](https://img.shields.io/badge/version-1.0.11-2f81f7)
+![Versão 1.0.17](https://img.shields.io/badge/version-1.0.17-2f81f7)
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)
 
 Auto Translation Framework é um mod para RimWorld que traduz outros mods ativos sem modificar os arquivos deles no Steam Workshop. Ele procura localizações ausentes, reutiliza traduções locais e compartilhadas, envia os textos restantes para os provedores configurados e aplica com segurança as traduções concluídas durante o jogo, onde o RimWorld permite.
 
-**[Instalar pelo Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[Abrir o guia do usuário](user-guide.html)**
+**[Baixar o ZIP atual](https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip)** | **[Instalar pelo Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650)** | **[Abrir o guia do usuário](user-guide.html)**
 
 ## O que ele traduz
 

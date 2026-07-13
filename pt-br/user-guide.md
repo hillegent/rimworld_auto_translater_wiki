@@ -7,7 +7,7 @@ description: Configuração, recursos e solução de problemas do Auto Translati
 
 [English](../user-guide.html) | [Русский](../ru/user-guide.html) | [简体中文](../zh-cn/user-guide.html) | **Português (Brasil)**
 
-Este guia descreve o fluxo de uso do Auto Translation Framework 1.0.11 no RimWorld 1.6.
+Este guia descreve o fluxo de uso do Auto Translation Framework 1.0.17 no RimWorld 1.6.
 
 ## Requisitos
 
@@ -18,7 +18,7 @@ Este guia descreve o fluxo de uso do Auto Translation Framework 1.0.11 no RimWor
 
 ## Instalação
 
-A instalação recomendada é pelo [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650).
+A instalação recomendada é pela [Oficina Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3759370650). Para instalar sem o Steam, baixe o [ZIP atual no GitHub](https://github.com/hillegent/rimworld_auto_translater_wiki/releases/latest/download/Auto-Translation-Framework.zip) e extraia a pasta `RimWorldAutoTranslator` em `RimWorld\Mods`.
 
 1. Inscreva-se no Harmony e no Auto Translation Framework.
 2. Abra o menu **Mods** do RimWorld.

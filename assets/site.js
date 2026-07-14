@@ -7,7 +7,7 @@
     en: {
       guide: "User guide", support: "Support", eyebrow: "RimWorld 1.6 mod",
       heroCopy: "Automatic translation for active RimWorld mods, with local memory, free web providers, and ready packs from the shared library.",
-      download: "Download current ZIP", steam: "Open in Steam Workshop", loadingRelease: "Checking current release...",
+      download: "Download current ZIP", steam: "Open in Steam Workshop", loadingRelease: "Checking current release...", downloadsLabel: "downloads",
       retention: "The GitHub channel keeps one build only: the current release.", supportKicker: "Project support",
       supportTitle: "Hosting and development", supportCopy: "The mod and public library remain free. These optional links help cover infrastructure and ongoing development.",
       manualKicker: "Non-Steam installation", installTitle: "Three steps, no installer", installCopy: "The archive already contains the correct mod folder. Existing local settings and generated translations are outside this folder and are not overwritten.",
@@ -19,7 +19,7 @@
     ru: {
       guide: "Руководство", support: "Поддержать", eyebrow: "Мод для RimWorld 1.6",
       heroCopy: "Автоматический перевод активных модов RimWorld: локальная память, бесплатные веб-переводчики и готовые паки из общей библиотеки.",
-      download: "Скачать актуальный ZIP", steam: "Открыть в Steam Workshop", loadingRelease: "Проверяем актуальную сборку...",
+      download: "Скачать актуальный ZIP", steam: "Открыть в Steam Workshop", loadingRelease: "Проверяем актуальную сборку...", downloadsLabel: "скачиваний",
       retention: "На GitHub хранится только одна сборка: самая свежая.", supportKicker: "Поддержка проекта",
       supportTitle: "Хостинг и разработка", supportCopy: "Мод и общая библиотека остаются бесплатными. Эти добровольные ссылки помогают оплачивать инфраструктуру и дальнейшую разработку.",
       manualKicker: "Установка без Steam", installTitle: "Три шага, без установщика", installCopy: "В архиве уже лежит готовая папка мода. Локальные настройки и сгенерированные переводы хранятся отдельно и не перезаписываются.",
@@ -31,7 +31,7 @@
     zh: {
       guide: "用户指南", support: "支持项目", eyebrow: "RimWorld 1.6 模组",
       heroCopy: "为已启用的 RimWorld 模组自动翻译，支持本地记忆、免费网页翻译器和共享库中的现成翻译包。",
-      download: "下载最新 ZIP", steam: "在 Steam 创意工坊打开", loadingRelease: "正在检查最新版本...",
+      download: "下载最新 ZIP", steam: "在 Steam 创意工坊打开", loadingRelease: "正在检查最新版本...", downloadsLabel: "次下载",
       retention: "GitHub 仅保留一个构建：当前最新版本。", supportKicker: "支持项目", supportTitle: "托管与开发",
       supportCopy: "模组和公共翻译库保持免费。以下自愿支持链接可帮助承担基础设施和持续开发费用。",
       manualKicker: "非 Steam 安装", installTitle: "三步完成，无需安装程序", installCopy: "压缩包中已经包含正确的模组文件夹。本地设置和生成的翻译位于其他位置，不会被覆盖。",
@@ -43,7 +43,7 @@
     pt: {
       guide: "Guia do usuário", support: "Apoiar", eyebrow: "Mod para RimWorld 1.6",
       heroCopy: "Tradução automática para mods ativos do RimWorld, com memória local, tradutores web gratuitos e pacotes prontos da biblioteca compartilhada.",
-      download: "Baixar ZIP atual", steam: "Abrir na Oficina Steam", loadingRelease: "Verificando a versão atual...",
+      download: "Baixar ZIP atual", steam: "Abrir na Oficina Steam", loadingRelease: "Verificando a versão atual...", downloadsLabel: "downloads",
       retention: "O canal do GitHub mantém apenas uma compilação: a versão atual.", supportKicker: "Apoio ao projeto", supportTitle: "Hospedagem e desenvolvimento",
       supportCopy: "O mod e a biblioteca pública continuam gratuitos. Estes links opcionais ajudam a cobrir a infraestrutura e o desenvolvimento contínuo.",
       manualKicker: "Instalação sem Steam", installTitle: "Três etapas, sem instalador", installCopy: "O arquivo já contém a pasta correta do mod. Configurações locais e traduções geradas ficam fora dela e não são sobrescritas.",
@@ -97,10 +97,17 @@
     return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
   }
 
+  function getDownloadsBeforeRelease(release) {
+    const match = String(release.body || "").match(/<!--\s*atf-downloads-before-release:(\d+)\s*-->/i);
+    return match ? Number(match[1]) : 0;
+  }
+
   async function loadRelease() {
     const sizeElement = document.querySelector("[data-release-size]");
     const dateElement = document.querySelector("[data-release-date]");
     const versionElement = document.querySelector("[data-release-version]");
+    const downloadsElement = document.querySelector("[data-release-downloads]");
+    const downloadCountElement = document.querySelector("[data-release-download-count]");
     try {
       const response = await fetch(releaseApi, { headers: { Accept: "application/vnd.github+json" } });
       if (!response.ok) throw new Error(`release ${response.status}`);
@@ -112,11 +119,20 @@
       dateElement.textContent = release.published_at
         ? new Intl.DateTimeFormat(localeNames[activeLanguage], { dateStyle: "medium" }).format(new Date(release.published_at))
         : "";
+      const currentDownloads = asset ? Number(asset.download_count) : NaN;
+      const totalDownloads = getDownloadsBeforeRelease(release) + currentDownloads;
+      if (Number.isFinite(totalDownloads) && totalDownloads >= 0) {
+        downloadCountElement.textContent = new Intl.NumberFormat(localeNames[activeLanguage]).format(totalDownloads);
+        downloadsElement.hidden = false;
+      } else {
+        downloadsElement.hidden = true;
+      }
     } catch (error) {
       versionElement.textContent = fallbackVersion;
       sizeElement.removeAttribute("data-i18n");
       sizeElement.textContent = "ZIP";
       dateElement.textContent = "";
+      downloadsElement.hidden = true;
     }
   }
 

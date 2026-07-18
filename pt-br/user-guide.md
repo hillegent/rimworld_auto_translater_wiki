@@ -7,7 +7,7 @@ description: Configuração, recursos e solução de problemas do Auto Translati
 
 [English](../user-guide.html) | [Русский](../ru/user-guide.html) | [简体中文](../zh-cn/user-guide.html) | **Português (Brasil)**
 
-Este guia descreve o fluxo de uso do Auto Translation Framework 1.0.17 no RimWorld 1.6.
+Este guia descreve o fluxo de uso do Auto Translation Framework 1.0.18 no RimWorld 1.6.
 
 ## Requisitos
 

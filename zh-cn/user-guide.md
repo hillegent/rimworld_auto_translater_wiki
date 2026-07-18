@@ -7,7 +7,7 @@ description: Auto Translation Framework 设置、功能与故障排除
 
 [English](../user-guide.html) | [Русский](../ru/user-guide.html) | **简体中文** | [Português (Brasil)](../pt-br/user-guide.html)
 
-本指南介绍 RimWorld 1.6 中 Auto Translation Framework 1.0.17 的玩家使用流程。
+本指南介绍 RimWorld 1.6 中 Auto Translation Framework 1.0.18 的玩家使用流程。
 
 ## 系统要求
 

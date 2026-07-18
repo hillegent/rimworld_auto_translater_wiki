@@ -1,6 +1,6 @@
 (() => {
   const releaseApi = "https://api.github.com/repos/hillegent/rimworld_auto_translater_wiki/releases/latest";
-  const fallbackVersion = "1.0.17";
+  const fallbackVersion = "1.0.18";
   const localeNames = { en: "en-US", ru: "ru-RU", zh: "zh-CN", pt: "pt-BR" };
   const guideLinks = { en: "user-guide.html", ru: "ru/user-guide.html", zh: "zh-cn/user-guide.html", pt: "pt-br/user-guide.html" };
   const translations = {

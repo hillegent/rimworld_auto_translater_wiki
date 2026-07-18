@@ -7,7 +7,7 @@ description: Настройка, функции и решение проблем
 
 [English](../user-guide.html) | **Русский** | [简体中文](../zh-cn/user-guide.html) | [Português (Brasil)](../pt-br/user-guide.html)
 
-Это руководство описывает пользовательский процесс Auto Translation Framework 1.0.17 для RimWorld 1.6.
+Это руководство описывает пользовательский процесс Auto Translation Framework 1.0.18 для RimWorld 1.6.
 
 ## Требования
 
